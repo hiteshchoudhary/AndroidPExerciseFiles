@@ -1,0 +1,23 @@
+{
+  "course_count": 3,
+  "email": "hitesh@lco.in",
+  "course": {
+    "description": "Bootcamp",
+    "name": "Java"
+  },
+  "video": [
+    {
+      "duration": 4,
+      "name": "Intro"
+    },
+    {
+      "duration": 8,
+      "name": "Exercise files"
+    },
+    {
+      "duration": 12,
+      "name": "Installation"
+    }
+  ],
+  "name": "hitesh"
+}

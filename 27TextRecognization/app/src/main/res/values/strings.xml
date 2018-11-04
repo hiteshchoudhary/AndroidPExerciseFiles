@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TextReccy</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="back">Back</string>
+</resources>

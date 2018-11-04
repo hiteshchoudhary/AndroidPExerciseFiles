@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="2dp"
+            app:cardBackgroundColor="@color/gray"
+            android:layout_weight="1"
+            android:layout_width="132dp"
+            android:layout_height="132dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:backgroundTint="@color/colorPrimary"
+                    android:id="@+id/imageButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <Button
+                    android:layout_margin="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/points"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

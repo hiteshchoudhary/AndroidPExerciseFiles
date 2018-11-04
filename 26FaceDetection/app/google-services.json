@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "932077236847",
+    "firebase_url": "https://mlkitonline-c8da3.firebaseio.com",
+    "project_id": "mlkitonline-c8da3",
+    "storage_bucket": "mlkitonline-c8da3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932077236847:android:b2c261aa171b1fbc",
+        "android_client_info": {
+          "package_name": "learncodeonline.in.facedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932077236847-hngir05ia2h0umluvv88v5omfsvprrsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "learncodeonline.in.facedetection",
+            "certificate_hash": "3e7b0326ad9953cd1c0ad90528d7494fdd639aeb"
+          }
+        },
+        {
+          "client_id": "932077236847-ba2kmetpjeaadr67hep1q9kgvfg6sau0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGp5BavcSmsEkOEBn_iTdFvmEHr-lLjBU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932077236847-ba2kmetpjeaadr67hep1q9kgvfg6sau0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
